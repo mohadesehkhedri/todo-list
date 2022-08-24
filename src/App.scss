@@ -1,0 +1,44 @@
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Vazirmatn', sans-serif;
+  text-align: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb");
+}
+
+.container {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+}
+
+.img {
+  margin: 50px;
+  color: blue;
+  font-size: 40px;
+
+
+}
+
+.todo {
+  //margin-left: 100px;
+  //margin-right: 100px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  .todo-list-completed-text {
+    text-decoration: line-through;
+    opacity: 0.5;
+  }
+}
+
